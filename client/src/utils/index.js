@@ -5,7 +5,7 @@ import {Doubts} from '../components/doubts'
 import {Learning as Learn}  from '../components/learning'
 import {Notes} from '../components/notes'
 import {Tests} from '../components/test'
-import { Profile } from "../components/common/Profile";
+import { UserProfile } from "../components/common/Profile";
 export {
     SideBar,
     Dashboard,
@@ -14,5 +14,5 @@ export {
     Learn,
     Notes,
     Tests,
-    Profile,
+    UserProfile,
 }
