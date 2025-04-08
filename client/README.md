@@ -1,12 +1,15 @@
-# React + Vite
+## User panel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# We can create a webpage with a sidebar or navbar containing the following sections: Dashboard, Assignment, Learn, Notes, Doubts, and Test.
 
-Currently, two official plugins are available:
+# Dashboard: Displays DPI, subject-wise progress, and pending assignments.Pending assignments are color-coded based on deadlines-red for 1 day remaining, orange for 2 days, and so on. When a user clicks on an assignment, it opens in the Assignment section, where they can write their response.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Doubts: Users (trainees) can ask subject-wise doubts. If a TA responds, the doubt appears in green; otherwise, it remains orange.
 
-## Expanding the ESLint configuration
+# Assignments: Displays both active and expired assignments. Active assignments are color-coded according to their deadlines. This section includes a built-in compiler. Expired assignments are also color-coded-green if completed and grey if not. While working on assignments, users can take notes to document new learnings. They can also set the importance level of these notes.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Test: Allows users to take tests.
+
+# Learning: Displays notes uploaded by TAs. Users can search for information, with results fetched from the TCS IRC database.
+
+# Notes: Shows all previously created user notes. Users can filter notes by subject and importance.
