@@ -3,7 +3,6 @@ import { SideBar, Dashboard, Assignments, Learn, Notes, Tests, Doubts, Profile }
 const App = () => {
   const user={
     name:"Atanu Shil",
-    age:"20",
   }
   return (
     <div className="flex bg-amber-200 h-screen fixed w-screen">
